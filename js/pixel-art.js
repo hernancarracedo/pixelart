@@ -98,38 +98,9 @@ function borrarGrilla(e){
 }
 
 
-//-----------------------------------------------
-//------------> ESTO FUNCIONA :-) <--------------
-//-----------------------------------------------
-/*
-function seleccionSuperheroe(e) {
-	switch(e.target.id) {
-	  case "batman":
-		cargarSuperheroe(batman);
-		break;
-	  case "wonder":
-		cargarSuperheroe(wonder);
-		break;
-	  case "flash":
-		cargarSuperheroe(flash);
-		break;
-	  case "invisible":
-		cargarSuperheroe(invisible);
-		break;
-	}
-}
-*/
-//-----------------------------------------------
-	
-//-----------------------------------------------
-//---------> ESTO NO FUNCIONA :-( <--------------
-//-----------------------------------------------
-
 function seleccionSuperheroe(e) {
 	cargarSuperheroe(window[e.target.id]);
 }
-
-//-----------------------------------------------
 
 
 let misSuperheroes = document.getElementsByTagName('img');
