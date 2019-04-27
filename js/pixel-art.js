@@ -101,6 +101,7 @@ function borrarGrilla(e){
 //-----------------------------------------------
 //------------> ESTO FUNCIONA :-) <--------------
 //-----------------------------------------------
+/*
 function seleccionSuperheroe(e) {
 	switch(e.target.id) {
 	  case "batman":
@@ -117,16 +118,17 @@ function seleccionSuperheroe(e) {
 		break;
 	}
 }
+*/
 //-----------------------------------------------
 	
 //-----------------------------------------------
 //---------> ESTO NO FUNCIONA :-( <--------------
 //-----------------------------------------------
-/*
+
 function seleccionSuperheroe(e) {
-	cargarSuperheroe(e.target.id);
+	cargarSuperheroe(window[e.target.id]);
 }
-*/
+
 //-----------------------------------------------
 
 
